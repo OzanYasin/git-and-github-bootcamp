@@ -17,6 +17,15 @@ Describe your changes in imperative mood, e.g. "make xyzzy do frotz" instead of 
 Blog Post About That:
 https://medium.com/@corrodedlotus/which-tense-should-be-used-on-a-git-commit-message-121cb641134b
 
-**You do NOT have to follow this pattern**
+**! You do NOT have to follow this pattern**
 
 Though the Git docs suggest using present-tense imperative messages, many developers prefer to use past-tense messages. All that matters is consistency, especially when working on a team with many people making commits
+
+### **Changing The Editor**
+
+Git Configuration Docs:
+https://git-scm.com/book/en/v2/Appendix-C%3A-Git-Commands-Setup-and-Config
+
+`git config --global core.editor "code --wait"`
+
+By doing that, vscode is the new committing text editor instead of Vim (default text editor).
