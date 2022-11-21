@@ -62,3 +62,23 @@ Create a file called **.gitignore** in the root of a repository. Inside the file
 GitIgnore Docs: https://git-scm.com/docs/gitignore
 
 > Recommended starting place for your project: https://www.toptal.com/developers/gitignore/
+
+## Working With Branches
+
+On large projects, we often work in multiple contexts:
+
+1. You're working on 2 different color scheme variations for your website at the same time, unsure of which you like best
+2. You're also trying to fix a horrible bug, but it's proving tough to solve. You need to really hunt around and toggle some code on and off to figure it out.
+3. A teammate is also working on adding a new chat widget to present at the next meeting. It's unclear if your company will end up using it.
+4. Another coworker is updating the search bar autocomplete.
+5. Another developer is doing an experimental radical design overhaul of the entire layout to present next month.
+
+### **Branches**
+
+Branches are an essential part of Git!
+
+Think of branches as alternative timelines for a project.
+
+They enable us to create separate contexts where we can try new things, or even work on multiple ideas in parallel.
+
+If we make changes on one branch, they do not impact the other branches (unless we merge the changes)
