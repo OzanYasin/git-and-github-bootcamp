@@ -113,3 +113,11 @@ This just creates the branch. It does not switch you to that branch (the HEAD st
 
 Once you have created a new branch,
 use `git switch <branch-name>` to switch to it.
+
+### **Another Way of Switching**
+
+Historically, we used `git checkout <branch-name>` to switch branches. This still works.
+
+The checkout command does a million additional things, so the decision was made to add a standalone switch command which is much simpler.
+
+You will see older tutorials and docs using checkout rather than switch. Both now work.
