@@ -121,3 +121,9 @@ Historically, we used `git checkout <branch-name>` to switch branches. This stil
 The checkout command does a million additional things, so the decision was made to add a standalone switch command which is much simpler.
 
 You will see older tutorials and docs using checkout rather than switch. Both now work.
+
+### **Creating & Switching**
+
+Use git switch with the -c flag to create a new branch AND switch to it all in one go.
+
+Remember -c as short for "create"
