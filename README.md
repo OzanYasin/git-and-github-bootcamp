@@ -102,3 +102,14 @@ So far, HEAD always points to the latest commit you made on the master branch, b
 Use `git branch` to view your existing branches. The default branch in every git repo is master, though you can configure this.
 
 Look for the \* which indicates the branch you are currently on.
+
+### **Creating Branches**
+
+Use `git branch <branch-name>` to make a new branch based upon the current HEAD
+
+This just creates the branch. It does not switch you to that branch (the HEAD stays the same)
+
+### **Switching Branches**
+
+Once you have created a new branch,
+use `git switch <branch-name>` to switch to it.
