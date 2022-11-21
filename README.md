@@ -88,3 +88,11 @@ If we make changes on one branch, they do not impact the other branches (unless 
 Many people designate the master branch as their "source of truth" or the "official branch" for their codebase, but that is left to you to decide.
 
 From Git's perspective, the master branch is just like any other branch. It does not have to hold the "master copy" of your project.
+
+### **Head**
+
+We'll often come across the term HEAD in Git.
+
+HEAD is simply a pointer that refers to the current "location" in your repository. It points to a particular branch reference.
+
+So far, HEAD always points to the latest commit you made on the master branch, but soon we'll see that we can move around and HEAD will change!
