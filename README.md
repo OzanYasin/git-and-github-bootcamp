@@ -96,3 +96,9 @@ We'll often come across the term HEAD in Git.
 HEAD is simply a pointer that refers to the current "location" in your repository. It points to a particular branch reference.
 
 So far, HEAD always points to the latest commit you made on the master branch, but soon we'll see that we can move around and HEAD will change!
+
+### **View Branches**
+
+Use `git branch` to view your existing branches. The default branch in every git repo is master, though you can configure this.
+
+Look for the \* which indicates the branch you are currently on.
