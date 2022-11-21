@@ -127,3 +127,17 @@ You will see older tutorials and docs using checkout rather than switch. Both no
 Use git switch with the -c flag to create a new branch AND switch to it all in one go.
 
 Remember -c as short for "create"
+
+> When you switch branches, if you have unstaged changes, they will come with you; if they're in conflict, git will yell at you.
+
+### **Deleting & Renaming Branches**
+
+With `git -d <branchname>` branch will be deleted. You may specify more than one branch for deletion. If the branch currently has a reflog then the reflog will also be deleted.
+
+`git -D <branchname>` is shortcut for `--delete --force`.
+
+> To delete a branch you had to go anywhere else but that branch, you could not delete from the branch; but to rename you have to be on the branch that you work on.
+
+### **Viewing More Info**
+
+Use the `git branch -v` command to view more information about each branch.
