@@ -82,3 +82,9 @@ Think of branches as alternative timelines for a project.
 They enable us to create separate contexts where we can try new things, or even work on multiple ideas in parallel.
 
 If we make changes on one branch, they do not impact the other branches (unless we merge the changes)
+
+### **Master**
+
+Many people designate the master branch as their "source of truth" or the "official branch" for their codebase, but that is left to you to decide.
+
+From Git's perspective, the master branch is just like any other branch. It does not have to hold the "master copy" of your project.
