@@ -1,17 +1,13 @@
-# Git & GitHub Bootcamp by Colt Steele
+# Comparing Changes with Git Diff
 
-## List of Topics
+Documents: https://git-scm.com/docs/git-diff
 
-1. Basics of Git
-2. Commits in Details
-3. Working with Branches
-4. Merging Branches
-5. Comparing Changes with Git Diff
+## Git Diff
 
-∆ **You can switch between topics by changing your current branch.**
+We can use the `git diff` command to view changes between commits, branches, files, our working directory, and more!
 
-To do that, you can use GUI or `git switch <branchname>` command on command line interface (CLI).
+We often use `git diff` alongside commands like `git status` and `git log`, to get a better picture of a repository and how it has changed over time.
 
-On command line, `git branch` command will present every branches (topics).
+Without additional options, `git diff` lists all the changes in our working directory that are NOT staged for the next commit.
 
-> This document is not finished.
+`git diff HEAD` lists all changes in the working tree since your last commit.
