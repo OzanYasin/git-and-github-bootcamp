@@ -9,7 +9,7 @@
 
 ∆ **You can switch between topics by changing your current branch.**
 
-To do that, you can use `git switch <branchname>` command.
+To do that, you can use GUI or `git switch <branchname>` command on command line interface (CLI).
 
 On command line, `git branch` command will present every branches (topics).
 
