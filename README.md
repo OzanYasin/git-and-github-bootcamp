@@ -178,3 +178,12 @@ The content from your current HEAD (the branch you are trying to merge content i
 &&
 
 The content from the branch you are trying to merge from is displayed between the **=======** and **>>>>>>>** symbols.
+
+### **Resolving Conflicts**
+
+Whenever you encounter merge conflicts, follow these steps to resolve them:
+
+1. Open up the file(s) with merge conflicts
+2. Edit the file(s) to remove the conflicts. Decide which branch's content you want to keep in each 3. conflict. Or keep the content from both.
+3. Remove the conflict "markers" in the document
+4. Add your changes and then make a commit!
