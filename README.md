@@ -27,8 +27,7 @@ Though the Git docs suggest using present-tense imperative messages, many develo
 
 ### **Changing The Editor**
 
-Git Configuration Docs:
-https://git-scm.com/book/en/v2/Appendix-C%3A-Git-Commands-Setup-and-Config
+Documents: https://git-scm.com/book/en/v2/Appendix-C%3A-Git-Commands-Setup-and-Config
 
 `git config --global core.editor "code --wait"`
 
@@ -59,7 +58,7 @@ Create a file called **.gitignore** in the root of a repository. Inside the file
 - `folderName/` will ignore an entire directory
 - `*.log` will ignore any files with the .log extension
 
-GitIgnore Docs: https://git-scm.com/docs/gitignore
+Documents: https://git-scm.com/docs/gitignore
 
 > Recommended starting place for your project: https://www.toptal.com/developers/gitignore/
 
@@ -141,3 +140,25 @@ With `git -d <branchname>` branch will be deleted. You may specify more than one
 ### **Viewing More Info**
 
 Use the `git branch -v` command to view more information about each branch.
+
+## Merging Branches
+
+Documents: https://git-scm.com/docs/git-merge
+
+Branching makes it super easy to work within self-contained contexts, but often we want to incorporate changes from one branch into another!
+
+We can do this using the `git merge` command
+
+### **Merging**
+
+The merge command can sometimes confuse students early on. Remember these two merging concepts:
+
+- We merge branches, not specific commits
+- We always merge to the current HEAD branch
+
+### **Merging Made Easy**
+
+To merge, follow these basic steps:
+
+1. Switch to or checkout the branch you want to merge the changes into (the receiving branch)
+2. Use the git merge command to merge changes from a specific branch into the current branch.
