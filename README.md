@@ -4,7 +4,7 @@
 
 1. Basics of Git
 2. Commits in Details
-3. Working With Branches
+3. Working with Branches
 4. Merging Branches
 
 ∆ **You can switch between topics by changing your current branch.**
