@@ -6,6 +6,7 @@
 2. Commits in Details
 3. Working with Branches
 4. Merging Branches
+5. Comparing Changes with Git Diff
 
 ∆ **You can switch between topics by changing your current branch.**
 
