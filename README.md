@@ -1,18 +1,11 @@
-# Git & GitHub Bootcamp by Colt Steele
+# Stashing
 
-## List of Topics
+Git provides an easy way of stashing these uncommitted changes so that we can return to them later, without having to make unnecessary commits.
 
-1.  Basics of Git
-2.  Commits in Details
-3.  Working with Branches
-4.  Merging Branches
-5.  Comparing Changes with Git Diff
-6.  Stashing
+## Git Stash
 
-∆ **You can switch between topics by changing your current branch.**
+`git stash` is super useful command that helps you save changes that you are not yet ready to commit. You can stash changes and then come back to them later.
 
-To do that, you can use GUI or `git switch <branchname>` command on command line interface (CLI).
+Running `git stash` will take all uncommitted changes (staged and unstaged) and stash them, reverting the changes in your working copy.
 
-On command line, `git branch` command will present every branches (topics).
-
-> This document is not finished.
+> You can also use git stash save instead
