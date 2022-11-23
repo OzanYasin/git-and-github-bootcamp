@@ -25,3 +25,13 @@ You can use `git stash apply` to apply whatever is stashed away, without removin
 If you have untracked files (files that you have never checked in to Git), they will not be included in the stash.
 
 Fortunately, you can use the -u option to tell git stash to include those untracked files.
+
+## Stashing Multiple Times
+
+You can add multiple stashes onto the stack of stashes. They will all be stashed in the order you added them.
+
+## Viewing Stashes
+
+You can run `git stash list` command to view all stashes.
+
+> Stash ID's look like `stash@{0}, stash@{1}, stash@{2}...`
