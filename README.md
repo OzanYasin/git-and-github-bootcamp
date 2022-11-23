@@ -19,3 +19,9 @@ Use `git stash pop` to remove the most recently stashed changes in your stash an
 ## Stash Apply
 
 You can use `git stash apply` to apply whatever is stashed away, without removing it from the stash. This can be useful if you want to apply stashed changes to multiple branches.
+
+## Untracked Files
+
+If you have untracked files (files that you have never checked in to Git), they will not be included in the stash.
+
+Fortunately, you can use the -u option to tell git stash to include those untracked files.
