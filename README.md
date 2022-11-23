@@ -2,11 +2,12 @@
 
 ## List of Topics
 
-1. Basics of Git
-2. Commits in Details
-3. Working with Branches
-4. Merging Branches
-5. Comparing Changes with Git Diff
+1.  Basics of Git
+2.  Commits in Details
+3.  Working with Branches
+4.  Merging Branches
+5.  Comparing Changes with Git Diff
+6.  Stashing
 
 ∆ **You can switch between topics by changing your current branch.**
 
