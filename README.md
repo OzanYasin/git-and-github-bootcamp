@@ -35,3 +35,7 @@ You can add multiple stashes onto the stack of stashes. They will all be stashed
 You can run `git stash list` command to view all stashes.
 
 > Stash ID's look like `stash@{0}, stash@{1}, stash@{2}...`
+
+## Applying Specific Stashes
+
+git assumes you want to apply the most recent stash when you run git stash apply, but you can also specify a particular stash like git stash apply stash@{2}
