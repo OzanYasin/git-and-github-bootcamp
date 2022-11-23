@@ -38,4 +38,12 @@ You can run `git stash list` command to view all stashes.
 
 ## Applying Specific Stashes
 
-git assumes you want to apply the most recent stash when you run git stash apply, but you can also specify a particular stash like git stash apply stash@{2}
+git assumes you want to apply the most recent stash when you run git stash apply, but you can also specify a particular stash like git stash apply stash@{2}.
+
+## Dropping Stashes
+
+To delete a particular stash, you can use `git stash drop <stash-id>`.
+
+## Clearing The Stash
+
+To clear out all stashes, run `git stash clear`
