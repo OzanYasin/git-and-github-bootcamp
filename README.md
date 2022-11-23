@@ -8,4 +8,4 @@ Git provides an easy way of stashing these uncommitted changes so that we can re
 
 Running `git stash` will take all uncommitted changes (staged and unstaged) and stash them, reverting the changes in your working copy.
 
-> You can also use git stash save instead
+> You can also use `git stash save` instead.
