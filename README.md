@@ -25,3 +25,7 @@ git diff branch1..branch2 will list the changes between the tips of branch1 and 
 ## Comparing Commits
 
 To compare two commits, provide git diff with the commit hashes of the commits in question.
+
+> You can find out commit id's by typing `git log --oneline`.
+
+Also you can use GUI (GitKraken) to visualize diffs to see them in a file. A lot of time this is useful, especially if you are working on large projects with tons of files.
