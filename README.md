@@ -8,6 +8,7 @@
 4.  Merging Branches
 5.  Comparing Changes with Git Diff
 6.  Stashing
+7.  Undo Changes
 
 ∆ **You can switch between topics by changing your current branch.**
 
