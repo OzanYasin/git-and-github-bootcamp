@@ -46,4 +46,4 @@ To delete a particular stash, you can use `git stash drop <stash-id>`.
 
 ## Clearing The Stash
 
-To clear out all stashes, run `git stash clear`
+To clear out all stashes, run `git stash clear`.
