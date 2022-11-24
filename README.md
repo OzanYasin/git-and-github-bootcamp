@@ -50,3 +50,11 @@ In addition, Git initializes a new repository on your machine, giving you access
 **Anyone can clone a repository from Github**, provided the repo is public. You do not need to be an owner or collaborator to clone the repo locally to your machine. You just need the URL from Github.
 
 Pushing up your own changes to the Github repo...that's another story entirely! You need permission to do that!
+
+## SSH Keys
+
+You need to be authenticated on Github to do certain operations, like pushing up code from your local machine. Your terminal will prompt you every single time for your Github email and password, unless...
+
+You generate and configure an SSH key! Once configured, you can connect to Github without having to supply your username/password.
+
+Documents: https://docs.github.com/en/authentication/connecting-to-github-with-ssh
