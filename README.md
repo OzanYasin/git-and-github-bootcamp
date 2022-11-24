@@ -55,3 +55,14 @@ Rather than typing HEAD, you can substitute -- followed by the file(s) you want 
 Because it is so new, most of the existing Git tutorials and books do not mention it, but it is worth knowing!
 
 Recall that `git checkout` does a million different things, which many git users find very confusing. `git restore` was introduced alongside `git switch` as alternatives to some of the uses for checkout.
+
+## Unmodifying Files with Restore
+
+Suppose you've made some changes to a file since your last commit. You've saved the file but then realize you definitely do NOT want those changes anymore!
+
+To restore the file to the contents in the HEAD, use `git restore <file-name>`
+
+`git restore <file-name>` restores using HEAD as the default source, but we can change that using
+the **--source** option.
+
+For example, `git restore --source HEAD~1 home.html` will restore the contents of **home.html** to its state from the commit prior to **HEAD.** You can also use a particular commit hash as the source.
