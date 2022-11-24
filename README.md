@@ -28,3 +28,19 @@ It can act as a sort of resumé that many employers will consult in the hiring p
 ## Stay Up to Date
 
 Being active on Github is the best way to stay up to date with the projects and tools you rely on. Learn about upcoming changes and the decisions/debate behind them.
+
+## Cloning
+
+So far we've created our own Git repositories from scratch, but often we want to get a **local copy of an existing repository** instead.
+
+To do this, we can clone a remote repository hosted on Github or similar websites. All we need is a URL that we can tell Git to clone for use.
+
+## Git Clone
+
+To clone a repo, simply run `git clone <url>`.
+
+Git will retrieve all the files associated with the repository and will copy them to your local machine.
+
+In addition, Git initializes a new repository on your machine, giving you access to the full Git history of the cloned project.
+
+> Make sure you are not inside of a repo when you clone!
