@@ -86,3 +86,11 @@ Suppose you've just made a couple of commits on the master branch, but you actua
 If you want to undo both the commits AND the actual changes in your files, you can use the **--hard** option.
 
 for example, `git reset --hard HEAD~1` will delete the last commit and associated changes.
+
+## Revert
+
+`git revert` is similar to `git reset` in that they both **"undo"** changes, but they accomplish it in different ways.
+
+`git reset` actually moves the branch pointer backwards, eliminating commits.
+
+`git revert` instead creates a brand new commit which **reverses/undos** the changes from a commit. Because it results in a new commit, you will be prompted to enter a commit message.
