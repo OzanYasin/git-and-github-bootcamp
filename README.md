@@ -102,3 +102,5 @@ Both `git reset` and `git revert` help us reverse changes, but there is a signif
 If you want to reverse some commits that other people already have on their machines, you should use **revert**.
 
 If you want to reverse commits that you haven't shared with others, use **reset** and no one will ever know!
+
+> Sometimes **reverting** a commit can result in conflicts, where you need to go into the file just like any other merge conflict and figure out what you want to keep and get rid of.
