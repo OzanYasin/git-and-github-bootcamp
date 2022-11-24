@@ -33,3 +33,17 @@ Don't panic when you see the following message...
 **HEAD~1** refers to the commit before HEAD (parent)
 
 **HEAD~2** refers to 2 commits before HEAD (grandparent)
+
+> `git checkout -` command will allow you to switch to the last branch you working on.
+
+## Discarding Changes
+
+Suppose you've made some changes to a file but don't want to keep them. To revert the file back to whatever it looked like when you last committed, you can use:
+
+`git checkout HEAD <filename>` to discard any changes in that file, reverting back to the HEAD.
+
+### Another Option
+
+Rather than typing HEAD, you can substitute -- followed by the file(s) you want to restore.
+
+`git checkout -- <filename>`
