@@ -47,3 +47,11 @@ Suppose you've made some changes to a file but don't want to keep them. To rever
 Rather than typing HEAD, you can substitute -- followed by the file(s) you want to restore.
 
 `git checkout -- <filename>`
+
+## Restore
+
+`git restore` is a brand new Git command that helps with undoing operations.
+
+Because it is so new, most of the existing Git tutorials and books do not mention it, but it is worth knowing!
+
+Recall that `git checkout` does a million different things, which many git users find very confusing. `git restore` was introduced alongside `git switch` as alternatives to some of the uses for checkout.
