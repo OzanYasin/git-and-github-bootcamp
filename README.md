@@ -74,3 +74,9 @@ If you have accidentally added a file to your staging area with `git add` and yo
 Use the **--staged** option like this: `git restore --staged <filename>`
 
 > If you feel confused or forgot how to restore, `git status` reminds you what to use!
+
+## Reset
+
+Suppose you've just made a couple of commits on the master branch, but you actually meant to make them on a separate branch instead. To undo those commits, you can use `git reset`.
+
+`git reset <commit-hash>` will reset the repo back to a specific commit. The commits are gone.
