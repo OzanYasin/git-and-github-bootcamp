@@ -19,3 +19,11 @@ Don't panic when you see the following message...
 
 - HEAD is a pointer to the current branch reference
 - The branch reference is a pointer to the last commit made on a particular branch
+
+> When we checkout a particular commit, **HEAD points at that commit** rather than at the branch pointer.
+
+### You have a couple options:
+
+1.  Stay in detached HEAD to examine the contents of the old commit. Poke around, view the files, etc.
+2.  Leave and go back to wherever you were before - reattach the HEAD
+3.  Create a new branch and switch to it. You can now make and save changes, since HEAD is no longer detached.
