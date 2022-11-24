@@ -27,3 +27,9 @@ Don't panic when you see the following message...
 1.  Stay in detached HEAD to examine the contents of the old commit. Poke around, view the files, etc.
 2.  Leave and go back to wherever you were before - reattach the HEAD
 3.  Create a new branch and switch to it. You can now make and save changes, since HEAD is no longer detached.
+
+∆ `git checkout` supports a slightly odd syntax for referencing previous commits relative to a particular commit.
+
+**HEAD~1** refers to the commit before HEAD (parent)
+
+**HEAD~2** refers to 2 commits before HEAD (grandparent)
