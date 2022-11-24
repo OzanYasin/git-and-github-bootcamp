@@ -44,3 +44,9 @@ Git will retrieve all the files associated with the repository and will copy the
 In addition, Git initializes a new repository on your machine, giving you access to the full Git history of the cloned project.
 
 > Make sure you are not inside of a repo when you clone!
+
+## Permissions?
+
+**Anyone can clone a repository from Github**, provided the repo is public. You do not need to be an owner or collaborator to clone the repo locally to your machine. You just need the URL from Github.
+
+Pushing up your own changes to the Github repo...that's another story entirely! You need permission to do that!
