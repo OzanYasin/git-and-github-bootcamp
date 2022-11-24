@@ -19,3 +19,12 @@ If you ever plan on working on a project with at least one other person, Github 
 Today Github is THE home of open source projects on the Internet. Projects ranging from React to Swift are hosted on Github.
 
 If you plan on contributing to open source projects, you'll need to get comfortable working with Github.
+
+## Exposure
+
+Your Github profile showcases your own projects and contributions to others' projects.
+It can act as a sort of resumé that many employers will consult in the hiring process. Additionally, you can gain some clout on the platform for creating or contributing to popular projects.
+
+## Stay Up to Date
+
+Being active on Github is the best way to stay up to date with the projects and tools you rely on. Learn about upcoming changes and the decisions/debate behind them.
