@@ -66,3 +66,11 @@ To restore the file to the contents in the HEAD, use `git restore <file-name>`
 the **--source** option.
 
 For example, `git restore --source HEAD~1 home.html` will restore the contents of **home.html** to its state from the commit prior to **HEAD.** You can also use a particular commit hash as the source.
+
+## Unstaging Files with Restore
+
+If you have accidentally added a file to your staging area with `git add` and you don't wish to include it in the next commit, you can use `git restore` to remove it from staging.
+
+Use the **--staged** option like this: `git restore --staged <filename>`
+
+> If you feel confused or forgot how to restore, `git status` reminds you what to use!
