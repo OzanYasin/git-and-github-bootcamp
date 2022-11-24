@@ -57,4 +57,6 @@ You need to be authenticated on Github to do certain operations, like pushing up
 
 You generate and configure an SSH key! Once configured, you can connect to Github without having to supply your username/password.
 
+> It's better to read updated guide about how to generate and authenticate SSH keys to your Github profile. Make sure you choose right operator system of yours.
+
 Documents: https://docs.github.com/en/authentication/connecting-to-github-with-ssh
