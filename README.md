@@ -9,6 +9,7 @@
 5.  Comparing Changes with Git Diff
 6.  Stashing
 7.  Undo Changes
+8.  Basics of Github
 
 ∆ **You can switch between topics by changing your current branch.**
 
