@@ -94,3 +94,11 @@ for example, `git reset --hard HEAD~1` will delete the last commit and associate
 `git reset` actually moves the branch pointer backwards, eliminating commits.
 
 `git revert` instead creates a brand new commit which **reverses/undos** the changes from a commit. Because it results in a new commit, you will be prompted to enter a commit message.
+
+## Should I Use Reset or Revert?
+
+Both `git reset` and `git revert` help us reverse changes, but there is a significant difference when it comes to collaboration (which we have yet to discuss but is coming up soon!)
+
+If you want to reverse some commits that other people already have on their machines, you should use **revert**.
+
+If you want to reverse commits that you haven't shared with others, use **reset** and no one will ever know!
