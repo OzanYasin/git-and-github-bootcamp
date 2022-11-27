@@ -2,7 +2,7 @@
 
 ## List of Topics
 
-1.  Basics of Git
+1.  [Basics of Git](https://github.com/OzanYasin/git-and-github-bootcamp/tree/01_basics-of-git)
 2.  Commits in Details
 3.  Working with Branches
 4.  Merging Branches
