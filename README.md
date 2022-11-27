@@ -3,7 +3,7 @@
 ## List of Topics
 
 1.  [Basics of Git](https://github.com/OzanYasin/git-and-github-bootcamp/tree/01_basics-of-git)
-2.  Commits in Details
+2.  [Commits in Details](https://github.com/OzanYasin/git-and-github-bootcamp/tree/02_Commits-in-Details)
 3.  Working with Branches
 4.  Merging Branches
 5.  Comparing Changes with Git Diff
