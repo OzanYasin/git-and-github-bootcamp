@@ -133,3 +133,12 @@ We need to specify the remote we want to push up to AND the specific local branc
 `git push <remove> <branch>
 
 **For instance,** `git push origin master` tells git to push up the master branch to our origin remote.
+
+## Push in Detail
+
+While we often want to push a local branch up to a remote branch of the same name, we don't have to!
+
+`git push <remote> <local-branch>:<remote-branch>`
+
+To push our local pancake branch up to a remote branch called waffle we could do:
+`git push origin pancake:waffle`
