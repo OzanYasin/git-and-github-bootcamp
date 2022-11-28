@@ -67,9 +67,11 @@ Remember -c as short for "create"
 
 ## **Deleting & Renaming Branches**
 
-With `git -d <branchname>` branch will be deleted. You may specify more than one branch for deletion. If the branch currently has a reflog then the reflog will also be deleted.
+With `git -d <branchname>` branch will be **deleted**. You may specify more than one branch for deletion. If the branch currently has a reflog then the reflog will also be deleted.
 
 `git -D <branchname>` is shortcut for `--delete --force`.
+
+All you need to do to rename a branch is first change to the branch that you want to change, then `git branch -m <newbranchname>` command will do the work.
 
 > To delete a branch you had to go anywhere else but that branch, you could not delete from the branch; but to rename you have to be on the branch that you work on.
 
