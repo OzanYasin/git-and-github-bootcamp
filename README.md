@@ -17,7 +17,7 @@ To do that, you can use `git switch <branchname>` command on command line interf
 
 ## Branch Names
 
-1.  01_basics-of-git
+1.  01_Basics-of-Git
 2.  02_Commits-in-Details
 3.  03_Working-with-Branches
 4.  04_Merging-Branches
