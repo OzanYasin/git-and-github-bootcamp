@@ -101,3 +101,9 @@ A remote is really two things: **a URL and a label.** To add a new remote, we ne
 Okay Git, anytime I use the name "origin", I'm referring to this particular Github repo URL.
 
 `git remote add origin https://github.com/blah/repo.git`
+
+## Origin?
+
+Origin is a conventional Git remote name, but it is not at all special. It's just a name for a URL.
+
+When we clone a Github repo, the default remote name setup for us is called origin. You can change it. Most people leave it.
