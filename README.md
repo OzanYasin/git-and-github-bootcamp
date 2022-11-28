@@ -79,3 +79,15 @@ If you haven't begun work on your local repo, you can...
 - Clone it down to your machine
 - Do some work locally
 - Push up your changes to Github
+
+## Remote
+
+Before we can push anything up to Github, we need to tell Git about our remote repository on Github. We need to setup a "destination" to push up to.
+
+In Git, we refer to these "destinations" as remotes. Each remote is simply a URL where a hosted repository lives.
+
+## Viewing Remotes
+
+To view any existing remotes for you repository, we can run `git remote` or `git remote -v` (verbose, for more info)
+
+This just displays a list of remotes. If you haven't added any remotes yet, you won't see anything!
