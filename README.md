@@ -91,3 +91,13 @@ In Git, we refer to these "destinations" as remotes. Each remote is simply a URL
 To view any existing remotes for you repository, we can run `git remote` or `git remote -v` (verbose, for more info)
 
 This just displays a list of remotes. If you haven't added any remotes yet, you won't see anything!
+
+## Adding a New Remote
+
+A remote is really two things: **a URL and a label.** To add a new remote, we need to provide both to Git.
+
+`git remote add <name> <url>`
+
+Okay Git, anytime I use the name "origin", I'm referring to this particular Github repo URL.
+
+`git remote add origin https://github.com/blah/repo.git`
