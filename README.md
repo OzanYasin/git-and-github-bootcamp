@@ -60,3 +60,22 @@ You generate and configure an SSH key! Once configured, you can connect to Githu
 > It's better to read updated guide about how to generate and authenticate SSH keys to your Github profile. Make sure you choose right operator system of yours.
 
 Documents: https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+
+## How Do I Get My Code On Github?
+
+### **Option 1:** Existing Repo
+
+If you already have an existing repo locally that you want to get on Github...
+
+- Create a new repo on Github
+- Connect your local repo (add a remote)
+- Push up your changes to Github
+
+### **Option 2:** Start From Scratch
+
+If you haven't begun work on your local repo, you can...
+
+- Create a brand new repo on Github
+- Clone it down to your machine
+- Do some work locally
+- Push up your changes to Github
