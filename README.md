@@ -107,3 +107,19 @@ Okay Git, anytime I use the name "origin", I'm referring to this particular Gith
 Origin is a conventional Git remote name, but it is not at all special. It's just a name for a URL.
 
 When we clone a Github repo, the default remote name setup for us is called origin. You can change it. Most people leave it.
+
+## Checking Our Work
+
+Try viewing your remotes with `git remote -v`, and you should now see a remote showing up!
+
+Remember, by setting up a remote we are just telling Git about a remote repository URL. We have not "communicated" with the Github repo at all yet.
+
+## Other Commands
+
+They are not commonly used, but there are commands to rename and delete remotes if needed.
+
+`git remote rename <old> <new>`
+
+`git remote remove <name>`
+
+> It's somewhat common to have multiple remotes, especially when you're working on open source projects.
