@@ -123,3 +123,13 @@ They are not commonly used, but there are commands to rename and delete remotes 
 `git remote remove <name>`
 
 > It's somewhat common to have multiple remotes, especially when you're working on open source projects.
+
+## Pushing
+
+Now that we have a remote set up, let's push some work up to Github! To do this, we need to use the `git push` command.
+
+We need to specify the remote we want to push up to AND the specific local branch we want to push up to that remote.
+
+`git push <remove> <branch>
+
+**For instance,** `git push origin master` tells git to push up the master branch to our origin remote.
