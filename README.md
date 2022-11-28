@@ -9,7 +9,7 @@
 5.  [Comparing Changes with Git Diff](https://github.com/OzanYasin/git-and-github-bootcamp/tree/05_Comparing-Changes-with-Git-Diff)
 6.  [Stashing](https://github.com/OzanYasin/git-and-github-bootcamp/tree/06_Stashing)
 7.  [Undo Changes](https://github.com/OzanYasin/git-and-github-bootcamp/tree/07_Undo-Changes)
-8.  [Basics of Github]()
+8.  [Basics of Github](https://github.com/OzanYasin/git-and-github-bootcamp/tree/08_Basics-of-Github)
 
 ∆ **You can switch between topics by changing your current branch.**
 
