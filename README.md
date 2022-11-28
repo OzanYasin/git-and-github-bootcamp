@@ -26,4 +26,4 @@ To do that, you can use `git switch <branchname>` command on command line interf
 7.  07_Undo-Changes
 8.  08_Basics-of-Git
 
-> This document is not finished.
+> _This document is not finished._
