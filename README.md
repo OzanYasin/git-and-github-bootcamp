@@ -4,12 +4,12 @@
 
 1.  [Basics of Git](https://github.com/OzanYasin/git-and-github-bootcamp/tree/01_basics-of-git)
 2.  [Commits in Details](https://github.com/OzanYasin/git-and-github-bootcamp/tree/02_Commits-in-Details)
-3.  Working with Branches
-4.  Merging Branches
-5.  Comparing Changes with Git Diff
-6.  Stashing
-7.  Undo Changes
-8.  Basics of Github
+3.  [Working with Branches](https://github.com/OzanYasin/git-and-github-bootcamp/tree/03_Working-with-Branches)
+4.  [Merging Branches](https://github.com/OzanYasin/git-and-github-bootcamp/tree/04_Merging-Branches)
+5.  [Comparing Changes with Git Diff](https://github.com/OzanYasin/git-and-github-bootcamp/tree/05_Comparing-Changes-with-Git-Diff)
+6.  [Stashing](https://github.com/OzanYasin/git-and-github-bootcamp/tree/06_Stashing)
+7.  [Undo Changes](https://github.com/OzanYasin/git-and-github-bootcamp/tree/07_Undo-Changes)
+8.  [Basics of Github]()
 
 ∆ **You can switch between topics by changing your current branch.**
 
