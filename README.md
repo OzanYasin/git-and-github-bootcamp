@@ -142,3 +142,11 @@ While we often want to push a local branch up to a remote branch of the same nam
 
 To push our local pancake branch up to a remote branch called waffle we could do:
 `git push origin pancake:waffle`
+
+## The -u Option
+
+The **-u option** allows us to set the upstream of the branch we're pushing You can think of this as a link connecting our local branch to a branch on Github.
+
+Running `git push -u origin master` sets the upstream of the local master branch so that it tracks the master branch on the origin repo.
+
+Once we've set the upstream for a branch, we can use the git push shorthand which will push our current branch to the upstream.
