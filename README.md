@@ -15,6 +15,15 @@
 
 To do that, you can use `git switch <branchname>` command on command line interface (CLI).
 
-On command line, `git branch` command will present every branches (topics).
+## Branch Names
+
+1.  01_basics-of-git
+2.  02_Commits-in-Details
+3.  03_Working-with-Branches
+4.  04_Merging-Branches
+5.  05_Comparing-Changes-with-Git-Diff
+6.  06_Stashing
+7.  07_Undo-Changes
+8.  08_Basics-of-Git
 
 > This document is not finished.
