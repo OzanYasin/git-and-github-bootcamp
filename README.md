@@ -10,6 +10,7 @@
 6.  [Stashing](https://github.com/OzanYasin/git-and-github-bootcamp/tree/06_Stashing)
 7.  [Undo Changes](https://github.com/OzanYasin/git-and-github-bootcamp/tree/07_Undo-Changes)
 8.  [Basics of Github](https://github.com/OzanYasin/git-and-github-bootcamp/tree/08_Basics-of-Github)
+9.  [Fetching and Pulling](https://github.com/OzanYasin/git-and-github-bootcamp/tree/09_Fetching-and-Pulling)
 
 ∆ **You can switch between topics by changing your current branch.**
 
