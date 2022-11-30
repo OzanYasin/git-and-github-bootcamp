@@ -11,6 +11,7 @@
 7.  [Undo Changes](https://github.com/OzanYasin/git-and-github-bootcamp/tree/07_Undo-Changes)
 8.  [Basics of Github](https://github.com/OzanYasin/git-and-github-bootcamp/tree/08_Basics-of-Github)
 9.  [Fetching and Pulling](https://github.com/OzanYasin/git-and-github-bootcamp/tree/09_Fetching-and-Pulling)
+10. [Git Collaboration Work Flows](https://github.com/OzanYasin/git-and-github-bootcamp/tree/10_Git-Collaboration-Work-Flows)
 
 ∆ **You can switch between topics by changing your current branch.**
 
@@ -27,5 +28,6 @@ To do that, you can use `git switch <branchname>` command on command line interf
 7.  07_Undo-Changes
 8.  08_Basics-of-Git
 9.  09_Fetching-and-Pulling
+10. 10_Git-Collaboration-Work-Flows
 
 > _This document is not finished._
