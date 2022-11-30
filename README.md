@@ -18,3 +18,21 @@ They follow this pattern `<remote>/<branch>`.
 Run `git branch -r` to view the remote branches our local repository knows about.
 
 > You can run `git status` to see if your branch is update, ahead or behind of origin/master.
+
+Once you've cloned a repository, we have all the data and Git history for the project at that moment in time. However, that does not mean it's all in my workspace!
+
+The github repo has a branch called cats, but when I run git branch I don't see it on my machine! All I see is the master branch. What's going on?
+
+∆ By default, master branch is already tracking origin/master.
+
+### _I want to work on a cats branch locally!_
+
+I could checkout origin/cats, but that puts me in detached HEAD.
+
+I want my own local branch called cats, and I want it to be connected to origin/cats, just like my local master branch is connected to origin/master.
+
+### _It's super easy!_
+
+Run `git switch <remote-branch-name>` to create a new local branch from the remote branch of the same name.
+
+`git switch cats` makes me a local cats branch AND sets it up to track the remote branch origin/cats.
