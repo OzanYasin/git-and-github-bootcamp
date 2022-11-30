@@ -38,3 +38,11 @@ Run `git switch <remote-branch-name>` to create a new local branch from the remo
 `git switch cats` makes me a local cats branch AND sets it up to track the remote branch origin/cats.
 
 > The new `command git switch` makes this super easy to do! It used to be slightly more complicated using `git checkout` **(git checkout --track origin/master)**.
+
+## Fetching
+
+Fetching allows us to download changes from a remote repository, BUT those changes will not be automatically integrated into our working files.
+
+It lets you see what others have been working on, without having to merge those changes into your local repo.
+
+Think of it as "please go and get the latest information from Github, but don't screw up my working directory."
