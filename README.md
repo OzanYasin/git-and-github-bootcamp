@@ -58,3 +58,11 @@ The `git fetch <remote>` command fetches branches and history from a specific re
 We can also fetch a specific branch from a remote using `git fetch <remote> <branch>`
 
 For example, `git fetch origin master` would retrieve the latest information from the master branch on the origin remote repository.
+
+## Pulling
+
+`git pull` is another command we can use to retrieve changes from a remote repository. Unlike fetch, pull actually updates our HEAD branch with whatever changes are retrieved from the remote.
+
+_"Go and download data from Github AND immediately update my local repo with those changes."_
+
+> **git pull = git fetch + git merge**
