@@ -46,3 +46,15 @@ Fetching allows us to download changes from a remote repository, BUT those chang
 It lets you see what others have been working on, without having to merge those changes into your local repo.
 
 Think of it as "please go and get the latest information from Github, but don't screw up my working directory."
+
+## Git Fetch
+
+The `git fetch <remote>` command fetches branches and history from a specific remote repository. It only updates remote tracking branches.
+
+`git fetch origin` would fetch all changes from the origin remote repository.
+
+> If not specified, `<remote>` defaults to origin.
+
+We can also fetch a specific branch from a remote using `git fetch <remote> <branch>`
+
+For example, `git fetch origin master` would retrieve the latest information from the master branch on the origin remote repository.
