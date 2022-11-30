@@ -97,7 +97,7 @@ for example, `git reset --hard HEAD~1` will delete the last commit and associate
 
 ## Should I Use Reset or Revert?
 
-Both `git reset` and `git revert` help us reverse changes, but there is a significant difference when it comes to collaboration (which we have yet to discuss but is coming up soon!)
+Both `git reset` and `git revert` help us reverse changes, but there is a significant difference when it comes to collaboration.
 
 If you want to reverse some commits that other people already have on their machines, you should use **revert**.
 
