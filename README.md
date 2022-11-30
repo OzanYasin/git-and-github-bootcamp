@@ -36,3 +36,5 @@ I want my own local branch called cats, and I want it to be connected to origin/
 Run `git switch <remote-branch-name>` to create a new local branch from the remote branch of the same name.
 
 `git switch cats` makes me a local cats branch AND sets it up to track the remote branch origin/cats.
+
+> The new `command git switch` makes this super easy to do! It used to be slightly more complicated using `git checkout` **(git checkout --track origin/master)**.
