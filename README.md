@@ -26,5 +26,6 @@ To do that, you can use `git switch <branchname>` command on command line interf
 6.  06_Stashing
 7.  07_Undo-Changes
 8.  08_Basics-of-Git
+9.  09_Fetching-and-Pulling
 
 > _This document is not finished._
