@@ -66,3 +66,9 @@ For example, `git fetch origin master` would retrieve the latest information fro
 _"Go and download data from Github AND immediately update my local repo with those changes."_
 
 > **git pull = git fetch + git merge**
+
+## Git Pull
+
+To pull, we specify the particular remote and branch we want to pull using `git pull <remote> <branch>`. Just like with git merge, it matters WHERE we run this command from. Whatever branch we run it from is where the changes will be merged into.
+
+`git pull origin master` would fetch the latest information from the origin's master branch and merge those changes into our current branch.
