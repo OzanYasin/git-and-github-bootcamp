@@ -83,3 +83,19 @@ If we run `git pull` without specifying a particular remote or branch to pull fr
 - branch will default to whatever tracking connection is configured for your current branch.
 
 > This behavior can be configured, and tracking connections can be changed manually. Most people don't mess with that stuff.
+
+## Comparison: git fetch & git pull
+
+### Git Fetch
+
+- Gets changes from remote branch(es)
+- Updates the remote-tracking branches with the new changes
+- Does not merge changes onto your current HEAD branch
+- Safe to do at anytime
+
+### Git Pull
+
+- Gets changes from remote branch(es)
+- Updates the current branch with the new changes, merging them in
+- Can result in merge conflicts
+- Not recommended if you have uncommitted changes!
