@@ -37,3 +37,13 @@ Running `git rebase` with the `-i` option will enter the interactive mode, which
 Also, notice that we are not rebasing onto another branch. Instead, we are rebasing a series of commits onto the HEAD they currently are based on.
 
 `git rebase -i HEAD~4`
+
+## How to Use Interactive Rebase Properly?
+
+n our text editor, we'll see a list of commits alongside a list of commands that we can choose from. Here are a couple of the more commonly used commands:
+
+- pick - use the commit
+- reword - use the commit, but edit the commit message
+- edit - use commit, but stop for amending
+- fixup - use commit contents but meld it into previous commit and discard the commit message
+- drop - remove commit
