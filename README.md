@@ -24,3 +24,8 @@ We get a much cleaner project history. No unnecessary merge commits! We end up w
 You do not want to rewrite any git history that other people already have. It's a pain to reconcile the alternate histories!
 
 > In order to encounter a **conflict** while rebasing, you should resolve the conflict, add changed files and run `git rebase --continue` to finish rebasing safely. If you don't want to do that, you can abort rebasing by running `git rebase --abort`.
+
+## Cleaning Up History With Interactive Rebase
+
+Sometimes we want to **rewrite, delete, rename, or even reorder commits** (before sharing them)
+We can do this using `git rebase`.
