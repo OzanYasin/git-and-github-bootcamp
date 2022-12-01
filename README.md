@@ -50,3 +50,10 @@ Pull Requests are a feature built in to products like Github & Bitbucket. **They
 They allow developers to alert team-members to new work that needs to be reviewed. They provide a mechanism to approve or reject the work on a given branch. They also help facilitate discussion and feedback on the specified commits.
 
 _"I have this new stuff I want to merge in to the master branch...what do you all think about it?"_
+
+## The Workflow
+
+1.  Do some work locally on a feature branch
+2.  Push up the feature branch to Github
+3.  Open a pull request using the feature branch just pushed up to Github
+4.  Wait for the PR to be approved and merged. Start a discussion on the PR. This part depends on the team structure.
