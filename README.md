@@ -59,3 +59,9 @@ _"I have this new stuff I want to merge in to the master branch...what do you al
 2.  Push up the feature branch to Github
 3.  Open a pull request using the feature branch just pushed up to Github
 4.  Wait for the PR to be approved and merged. Start a discussion on the PR. This part depends on the team structure.
+
+## Fork & Clone: Another Workflow
+
+The **"fork & clone"** workflow is different from anything we've seen so far. Instead of just one centralized Github repository, every developer has their own Github repository in addition to the "main" repo. Developers make changes and push to their own forks before making pull requests.
+
+It's very commonly used on large open-source projects where there may be thousands of contributors with only a couple maintainers.
