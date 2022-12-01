@@ -42,3 +42,11 @@ There are a couple of options for how to do this...
 1.  Merge at will, without any sort of discussion with teammates. JUST DO IT WHENEVER YOU WANT.
 2.  Send an email or chat message or something to your team to discuss if the changes should be merged in.
 3.  Pull Requests!
+
+## Pull Requests
+
+Pull Requests are a feature built in to products like Github & Bitbucket. **They are not native to Git itself**.
+
+They allow developers to alert team-members to new work that needs to be reviewed. They provide a mechanism to approve or reject the work on a given branch. They also help facilitate discussion and feedback on the specified commits.
+
+_"I have this new stuff I want to merge in to the master branch...what do you all think about it?"_
