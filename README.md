@@ -81,3 +81,13 @@ Now that I've forked, I have my very own copy of the repo where I can do whateve
 I can clone my fork and make changes, add features, and break things without fear of disturbing the original repository.
 
 If I do want to share my work, I can make a pull request from my fork to the original repo.
+
+## Summarize
+
+1.  Fork the original project repo on Github
+2.  Clone my fork to my local machine
+3.  Add a remote pointing to the original project repo. This remote is often named upstream.
+4.  Make changes and add/commit on a feature branch on my local machine
+5.  Push up my new feature branch to my forked repo (usually called origin)
+6.  Open a pull request to the original project repo containing the new work on my forked repo
+7.  Hopefully the pull request is accepted and my changes are merged in!
