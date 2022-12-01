@@ -51,6 +51,8 @@ They allow developers to alert team-members to new work that needs to be reviewe
 
 _"I have this new stuff I want to merge in to the master branch...what do you all think about it?"_
 
+> If there is conflicts, you should resolve that by following the instructors on Github.
+
 ## The Workflow
 
 1.  Do some work locally on a feature branch
