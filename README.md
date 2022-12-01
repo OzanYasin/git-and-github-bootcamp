@@ -33,3 +33,12 @@ Rather than working directly on master/main, all new development should be done 
 There are many different approaches for naming feature branches. Often you'll see branch names that include slashes like **bug/fix-scroll** or **feature/login-form** or **feat/button/enable-pointer-events**
 
 Specific teams and projects usually have their own branch naming conventions. To keep these slides simple and concise, I'm just going to ignore those best-practices for now.
+
+## Merging In Feature Branches
+
+At some point new the work on feature branches will need to be merged in to the master branch!  
+There are a couple of options for how to do this...
+
+1.  Merge at will, without any sort of discussion with teammates. JUST DO IT WHENEVER YOU WANT.
+2.  Send an email or chat message or something to your team to discuss if the changes should be merged in.
+3.  Pull Requests!
