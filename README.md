@@ -65,3 +65,11 @@ _"I have this new stuff I want to merge in to the master branch...what do you al
 The **"fork & clone"** workflow is different from anything we've seen so far. Instead of just one centralized Github repository, every developer has their own Github repository in addition to the "main" repo. Developers make changes and push to their own forks before making pull requests.
 
 It's very commonly used on large open-source projects where there may be thousands of contributors with only a couple maintainers.
+
+## Forking
+
+Github (and similar tools) allow us to create personal copies of other peoples' repositories. We call those copies a "fork" of the original.
+
+When we fork a repo, we're basically asking Github "Make me my own copy of this repo please"
+
+As with pull requests, forking is not a Git feature. The ability to fork is implemented by Github.
