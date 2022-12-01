@@ -27,3 +27,9 @@ Rather than working directly on master/main, all new development should be done 
 - Master/main branch won't contain broken code (or at least, it won't unless someone messes up)
 
 > In conclusion, feature branches is much better option than centralized workflow to work with collaborators.
+
+## Feature Branch Naming
+
+There are many different approaches for naming feature branches. Often you'll see branch names that include slashes like **bug/fix-scroll** or **feature/login-form** or **feat/button/enable-pointer-events**
+
+Specific teams and projects usually have their own branch naming conventions. To keep these slides simple and concise, I'm just going to ignore those best-practices for now.
