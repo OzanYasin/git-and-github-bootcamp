@@ -16,3 +16,9 @@ Instead of using a merge commit, rebasing rewrites history by **creating new com
 ### Why Rebase?
 
 We get a much cleaner project history. No unnecessary merge commits! We end up with a linear project history.
+
+## When Not to Rebase?
+
+**Never** rebase commits that have been shared with others. If you have already pushed commits up to Github...DO NOT rebase them unless you are positive no one on the team is using those commits.
+
+You do not want to rewrite any git history that other people already have. It's a pain to reconcile the alternate histories!
