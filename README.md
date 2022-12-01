@@ -22,3 +22,5 @@ We get a much cleaner project history. No unnecessary merge commits! We end up w
 **Never** rebase commits that have been shared with others. If you have already pushed commits up to Github...DO NOT rebase them unless you are positive no one on the team is using those commits.
 
 You do not want to rewrite any git history that other people already have. It's a pain to reconcile the alternate histories!
+
+> In order to encounter a **conflict** while rebasing, you should resolve the conflict, add changed files and run `git rebase --continue` to finish rebasing safely. If you don't want to do that, you can abort rebasing by running `git rebase --abort`.
