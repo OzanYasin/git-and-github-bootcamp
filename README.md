@@ -29,3 +29,11 @@ You do not want to rewrite any git history that other people already have. It's 
 
 Sometimes we want to **rewrite, delete, rename, or even reorder commits** (before sharing them)
 We can do this using `git rebase`.
+
+## Interactive Rebase
+
+Running `git rebase` with the `-i` option will enter the interactive mode, which allows us to edit commits, add files, drop commits, etc. Note that we need to specify how far back we want to rewrite commits.
+
+Also, notice that we are not rebasing onto another branch. Instead, we are rebasing a series of commits onto the HEAD they currently are based on.
+
+`git rebase -i HEAD~4`
