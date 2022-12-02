@@ -8,9 +8,9 @@ Think of tags as branch references that do NOT CHANGE. Once a tag is created, it
 
 There are two types of Git tags we can use: lightweight and annotated tags
 
-lightweight tags are...lightweight. They are just a name/label that points to a particular commit.
+**lightweight tags are...lightweight.** They are just a name/label that points to a particular commit.
 
-annotated tags store extra meta data including the author's name and email, the date, and a tagging message (like a commit message)
+**annotated tags** store extra meta data including the author's name and email, the date, and a tagging message (like a commit message)
 
 ## Semantic Versioning
 
@@ -47,3 +47,7 @@ Major releases signify significant changes that is no longer backwards compatibl
 `git tag` will print a list of all the tags in the current repository.
 
 We can search for tags that match a particular pattern by using git tag -l and then passing in a wildcard pattern. For example, `git tag -l "*beta*"` will print a list of tags that include "beta" in their name.
+
+## Checking Out Tags
+
+To view the state of a repo at a particular tag, we can use `git checkout <tag>`. _This puts us in detached HEAD!_
