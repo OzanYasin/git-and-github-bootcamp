@@ -51,3 +51,15 @@ We can search for tags that match a particular pattern by using git tag -l and t
 ## Checking Out Tags
 
 To view the state of a repo at a particular tag, we can use `git checkout <tag>`. _This puts us in detached HEAD!_
+
+## Creating Lightweight Tags
+
+To create a lightweight tag, use `git tag <tagname>`.
+
+By default, Git will create the tag referring to the commit that HEAD is referencing.
+
+## Creating Annotated Tags
+
+Use `git tag -a <tagname>` to create a new annotated tag. Git will then open your default text editor and prompt you for additional information.
+
+Similar to git commit, we can also use the -m option to pass a message directly and forgo the opening of the text editor
