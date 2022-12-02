@@ -7,3 +7,11 @@ Documents: https://git-scm.com/docs/git-config
 ## Config
 
 The config file is for...configuration. As we know, there is a way to configure global settings like our name and email across all Git repos, but we can also configure things on a per-repo basis.
+
+## Refs Folder
+
+Inside of refs, you'll find a heads directory. **_refs/heads_** contains one file per branch in a repository. Each file is named after a branch and contains the hash of the commit at the tip of the branch.
+
+For example **refs/heads/master** contains the commit hash of the last commit on the master branch.
+
+Refs also contains a **refs/tags** folder which contains one file for each tag in the repo.
