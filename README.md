@@ -37,3 +37,21 @@ The objects directory contains all the repo files. This is where Git stores the 
 The files are all compressed and encrypted, so they won't look like much!
 
 > There is 4 type of Git Objects; commit, tree, blob, annotated and tag.
+
+## Hashing Functions
+
+Hashing functions are functions that map input data of some arbitrary size to fixed-size output values.
+
+### **Cryptographic Hash Functions**
+
+1.  One-way function which is infeasible to invert
+2.  Small change in input yields large change in the output
+3.  Deterministic - same input yields same output
+4.  Unlikely to find 2 outputs with same value
+
+### **SHA-1**
+
+Git uses a hashing function called SHA-1 (though this is set to change eventually).
+
+- SHA-1 always generates 40-digit hexadecimal numbers
+- The commit hashes we've seen a million times are the output of SHA-1
