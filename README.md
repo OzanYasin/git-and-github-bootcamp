@@ -55,3 +55,9 @@ Git uses a hashing function called SHA-1 (though this is set to change eventuall
 
 - SHA-1 always generates 40-digit hexadecimal numbers
 - The commit hashes we've seen a million times are the output of SHA-1
+
+## Git Database
+
+Git is a **key-value data store.** We can insert any kind of content into a Git repository, and Git will hand us back a unique key we can later use to retrieve that content.
+
+These keys that we get back are SHA-1 checksums.
