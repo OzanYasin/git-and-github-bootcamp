@@ -89,3 +89,9 @@ The **-p** option tells Git to pretty print the contents of the object based on 
 ## Blobs
 
 Git blobs **(binary large object)** are the object type Git uses to store the contents of files in a given repository. Blobs don't even include the filenames of each file or any other data. They just store the contents of a file!
+
+## Trees
+
+Trees are Git objects used to store the contents of a directory. Each tree contains pointers that can refer to blobs and to other trees.
+
+Each entry in a tree contains the SHA-1 hash of a blob or tree, as well as the mode, type, and filename.
