@@ -67,3 +67,7 @@ Similar to git commit, we can also use the -m option to pass a message directly 
 ## Tagging Previous Commits
 
 So far we've seen how to tag the commit that HEAD references. We can also tag an older commit by providing the commit hash: `git tag -a <tagname> <commit-hash>`
+
+## Forcing Tags
+
+Git will yell at us if we try to reuse a tag that is already referring to a commit. If we use the `-f` option, we can FORCE our tag through.
