@@ -85,3 +85,7 @@ Now that we have data stored in our Git object database, we can try retrieving i
 `git cat-file -p <object-hash>`
 
 The **-p** option tells Git to pretty print the contents of the object based on its type.
+
+## Blobs
+
+Git blobs **(binary large object)** are the object type Git uses to store the contents of files in a given repository. Blobs don't even include the filenames of each file or any other data. They just store the contents of a file!
