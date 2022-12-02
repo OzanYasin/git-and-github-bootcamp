@@ -71,3 +71,7 @@ So far we've seen how to tag the commit that HEAD references. We can also tag an
 ## Forcing Tags
 
 Git will yell at us if we try to reuse a tag that is already referring to a commit. If we use the `-f` option, we can FORCE our tag through.
+
+## Deleting Tags
+
+To delete a tag, `use git tag -d <tagname>`.
