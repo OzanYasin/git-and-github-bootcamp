@@ -61,3 +61,21 @@ Git uses a hashing function called SHA-1 (though this is set to change eventuall
 Git is a **key-value data store.** We can insert any kind of content into a Git repository, and Git will hand us back a unique key we can later use to retrieve that content.
 
 These keys that we get back are SHA-1 checksums.
+
+## Hashing
+
+The `git hash-object <file>` command takes some data, stores in in our .git/objects directory and gives us back the unique SHA-1 hash that refers to that data object.
+
+In the simplest form, Git simply takes some content and returns the unique key that WOULD be used to store our object. But it does not actually store anything
+
+The `--stdin` option tells git hash-object to use the content from stdin rather than a file. In our example, it will hash the word 'hello'
+
+`echo 'hello' | git hash-object --stdin`
+
+The echo command simply repeats whatever we tell it to repeat to the terminal. We pipe the output of echo to `git hash-object`.
+
+Rather than simply outputting the key that git would store our object under, we can use the **-w** option to tell git to actually write the object to the database.
+
+`echo 'hello' | git hash-object --stdin -w`
+
+After running this command, check out the contents of **.git/objects**
