@@ -75,3 +75,9 @@ Git will yell at us if we try to reuse a tag that is already referring to a comm
 ## Deleting Tags
 
 To delete a tag, `use git tag -d <tagname>`.
+
+## Pushing Tags
+
+By default, the git push command **doesn’t** transfer tags to remote servers. If you have a lot of tags that you want to push up at once, you can use the `--tags` option to the git push command. This will transfer all of your tags to the remote server that are not already there.
+
+> git push --tags
