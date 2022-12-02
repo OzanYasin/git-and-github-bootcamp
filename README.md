@@ -11,3 +11,33 @@ There are two types of Git tags we can use: lightweight and annotated tags
 lightweight tags are...lightweight. They are just a name/label that points to a particular commit.
 
 annotated tags store extra meta data including the author's name and email, the date, and a tagging message (like a commit message)
+
+## Semantic Versioning
+
+The semantic versioning spec outlines a standardized versioning system for software releases. It provides a consistent way for developers to give meaning to their software releases (how big of a change is this release??)
+
+Versions consist of three numbers separated by periods.
+
+**Documents: https://semver.org**
+
+### **Initial Release**
+
+Typically, the first release is 1.0.0
+
+### **Patch Release**
+
+Patch releases normally do not contain new features or significant changes. They typically signify bug fixes and other changes that do not impact how the code is used.
+
+> 1.0.1
+
+### **Minor Release**
+
+Minor releases signify that new features or functionality have been added, but the project is still backwards compatible. No breaking changes. The new functionality is optional and should not force users to rewrite their own code.
+
+> 1.1.0
+
+### **Major Release**
+
+Major releases signify significant changes that is no longer backwards compatible. Features may be removed or changed substantially.
+
+> 2.0.0
