@@ -63,3 +63,7 @@ By default, Git will create the tag referring to the commit that HEAD is referen
 Use `git tag -a <tagname>` to create a new annotated tag. Git will then open your default text editor and prompt you for additional information.
 
 Similar to git commit, we can also use the -m option to pass a message directly and forgo the opening of the text editor
+
+## Tagging Previous Commits
+
+So far we've seen how to tag the commit that HEAD references. We can also tag an older commit by providing the commit hash: `git tag -a <tagname> <commit-hash>`
