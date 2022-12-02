@@ -101,3 +101,9 @@ Each entry in a tree contains the SHA-1 hash of a blob or tree, as well as the m
 Remember that `git cat-file` prints out Git objects. In this example, the **master^{tree}** syntax specifies the tree object that is pointed to by the tip of our master branch.
 
 `git cat-file -p master^{tree}`
+
+## Commits
+
+Commit objects combine a tree object along with information about the context that led to the current tree. Commits store a reference to parent commit(s), the author, the commiter, and of course the commit message!
+
+When we run `git commit`, Git creates a new commit object whose parent is the **current HEAD commit** and whose tree is the current content of the index.
