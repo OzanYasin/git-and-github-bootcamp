@@ -95,3 +95,9 @@ Git blobs **(binary large object)** are the object type Git uses to store the co
 Trees are Git objects used to store the contents of a directory. Each tree contains pointers that can refer to blobs and to other trees.
 
 Each entry in a tree contains the SHA-1 hash of a blob or tree, as well as the mode, type, and filename.
+
+## Viewing Trees
+
+Remember that `git cat-file` prints out Git objects. In this example, the **master^{tree}** syntax specifies the tree object that is pointed to by the tip of our master branch.
+
+`git cat-file -p master^{tree}`
