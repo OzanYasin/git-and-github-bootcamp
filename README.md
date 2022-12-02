@@ -79,3 +79,9 @@ Rather than simply outputting the key that git would store our object under, we 
 `echo 'hello' | git hash-object --stdin -w`
 
 After running this command, check out the contents of **.git/objects**
+
+Now that we have data stored in our Git object database, we can try retrieving it using the git cat-file command.
+
+`git cat-file -p <object-hash>`
+
+The **-p** option tells Git to pretty print the contents of the object based on its type.
