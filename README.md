@@ -41,3 +41,9 @@ Minor releases signify that new features or functionality have been added, but t
 Major releases signify significant changes that is no longer backwards compatible. Features may be removed or changed substantially.
 
 > 2.0.0
+
+## Viewing Tags
+
+`git tag` will print a list of all the tags in the current repository.
+
+We can search for tags that match a particular pattern by using git tag -l and then passing in a wildcard pattern. For example, `git tag -l "*beta*"` will print a list of tags that include "beta" in their name.
