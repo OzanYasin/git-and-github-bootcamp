@@ -14,6 +14,7 @@
 10. [Git Collaboration Work Flows](https://github.com/OzanYasin/git-and-github-bootcamp/tree/10_Git-Collaboration-Work-Flows)
 11. [Rebasing](https://github.com/OzanYasin/git-and-github-bootcamp/tree/11_Rebasing)
 12. [Git Tags](https://github.com/OzanYasin/git-and-github-bootcamp/tree/12_Git-Tags)
+13. [Git Hashing and Objects](https://github.com/OzanYasin/git-and-github-bootcamp/tree/13_Git-Hashing-and-Objects)
 
 ∆ **You can switch between topics by changing your current branch.**
 
@@ -33,5 +34,6 @@ To do that, you can use `git switch <branchname>` command on command line interf
 10. 10_Git-Collaboration-Work-Flows
 11. 11_Rebasing
 12. 12_Git-Tags
+13. 13_Git-Hashing-and-Objects
 
 > **_This document is not finished._**
