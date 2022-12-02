@@ -23,3 +23,9 @@ HEAD is just a text file that keeps track of where HEAD points.
 > If it contains refs/heads/master, this means that HEAD is pointing to the master branch.
 
 In detached HEAD, the HEAD file contains a commit hash instead of a branch reference
+
+## Index
+
+The index file is a binary file that contains a list of the files the repository is tracking. It stores the file names as well as some metadata for each file.
+
+Not that the index does NOT store the actual contents of files. It only contains references to files.
