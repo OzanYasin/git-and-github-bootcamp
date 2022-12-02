@@ -29,3 +29,11 @@ In detached HEAD, the HEAD file contains a commit hash instead of a branch refer
 The index file is a binary file that contains a list of the files the repository is tracking. It stores the file names as well as some metadata for each file.
 
 Not that the index does NOT store the actual contents of files. It only contains references to files.
+
+## Objects Folder
+
+The objects directory contains all the repo files. This is where Git stores the backups of files, the commits in a repo, and more.
+
+The files are all compressed and encrypted, so they won't look like much!
+
+> There is 4 type of Git Objects; commit, tree, blob, annotated and tag.
