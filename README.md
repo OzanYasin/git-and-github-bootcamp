@@ -13,6 +13,7 @@
 9.  [Fetching and Pulling](https://github.com/OzanYasin/git-and-github-bootcamp/tree/09_Fetching-and-Pulling)
 10. [Git Collaboration Work Flows](https://github.com/OzanYasin/git-and-github-bootcamp/tree/10_Git-Collaboration-Work-Flows)
 11. [Rebasing](https://github.com/OzanYasin/git-and-github-bootcamp/tree/11_Rebasing)
+12. [Git Tags](https://github.com/OzanYasin/git-and-github-bootcamp/tree/12_Git-Tags)
 
 ∆ **You can switch between topics by changing your current branch.**
 
@@ -31,5 +32,6 @@ To do that, you can use `git switch <branchname>` command on command line interf
 9.  09_Fetching-and-Pulling
 10. 10_Git-Collaboration-Work-Flows
 11. 11_Rebasing
+12. 12_Git-Tags
 
 > **_This document is not finished._**
