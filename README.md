@@ -17,3 +17,20 @@ For example, to view the logs for the tip of the main branch we could run `git r
 ## Reflog References
 
 We can access specific git refs is **name@{qualifier}**. We can use this syntax to access specific ref pointers and can pass them to other commands including checkout, reset, and merge.
+
+## Timed References
+
+Every entry in the reference logs has a timestamp associated with it. We can filter reflogs entries by time/date by using time qualifiers like:
+
+- 1.day.ago
+- 3.minutes.ago
+- yesterday
+- Fri, 12 Feb 2021 14:06:21 -0800
+
+### Examples:
+
+`git reflog master@{one.week.ago}`
+
+`git checkout bugfix@{2.days.ago}`
+
+`git diff main@{0} main@{yesterday}`
