@@ -34,3 +34,7 @@ Every entry in the reference logs has a timestamp associated with it. We can fil
 `git checkout bugfix@{2.days.ago}`
 
 `git diff main@{0} main@{yesterday}`
+
+## Reflogs Rescue
+
+We can sometimes use reflog entries to access commits that seem lost and are not appearing in git log.
