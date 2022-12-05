@@ -1,5 +1,7 @@
 # Git & GitHub Bootcamp Documentation
 
+This documentation is about mastering **Git and Github** essentials. You can checkout at the topics below to see what you could capable with mastering on this subject.
+
 ## List of Topics
 
 1.  [Basics of Git](https://github.com/OzanYasin/git-and-github-bootcamp/tree/01_basics-of-git)
@@ -39,3 +41,5 @@ To do that, you can use `git switch <branchname>` command on command line interf
 13. 13_Git-Hashing-and-Objects
 14. 14_Git-Reflogs
 15. 15_Custom-Git-Aliases
+
+> Big thanks to **Colt Steele** for his incredible work on **_The Git & Github Bootcamp_**. This document contains his courses quotations.
