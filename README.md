@@ -16,6 +16,7 @@
 12. [Git Tags](https://github.com/OzanYasin/git-and-github-bootcamp/tree/12_Git-Tags)
 13. [Git Hashing and Objects](https://github.com/OzanYasin/git-and-github-bootcamp/tree/13_Git-Hashing-and-Objects)
 14. [Git Reflogs](https://github.com/OzanYasin/git-and-github-bootcamp/tree/14_Git-Reflogs)
+15. [Custom Git Aliases](https://github.com/OzanYasin/git-and-github-bootcamp/tree/15_Custom-Git-Aliases)
 
 ∆ **You can switch between topics by changing your current branch.**
 
@@ -37,5 +38,4 @@ To do that, you can use `git switch <branchname>` command on command line interf
 12. 12_Git-Tags
 13. 13_Git-Hashing-and-Objects
 14. 14_Git-Reflogs
-
-> **_This document is not finished._**
+15. 15_Custom-Git-Aliases
