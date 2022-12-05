@@ -1,6 +1,6 @@
 # Git & GitHub Bootcamp Documentation
 
-This documentation is about mastering **Git and Github** essentials. You can checkout at the topics below to see what you could capable with mastering on this subject.
+This documentation is about mastering **Git and Github** essentials. You can check out these 15 topics below to see what you could capable of mastering on this subject.
 
 ## List of Topics
 
